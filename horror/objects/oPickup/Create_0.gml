@@ -1,0 +1,9 @@
+myItemName			= "FaCa";
+myItemAmount		= 1;
+myItemDescription	= "FaCa";
+myItemSprite		= sPorta;
+myItemID			= "ID:FACA_1";
+myItemPeso			= "50";
+myItemDurabilidade  = "Perfeito";
+myItemTipo			= "CATEGORIA:ARMAS";
+myItemObjeto		= oPickup;
