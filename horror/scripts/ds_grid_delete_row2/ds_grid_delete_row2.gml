@@ -11,7 +11,7 @@ if(ds_grid_height(playerInventory) == 1)
 		else
 		{
 			for (var i = 0; i < playerInventoryWidth; ++i){
-				ds_grid_set(playerInventory,i,0,0);	
+			ds_grid_set(playerInventory,i,0,0);	
 			}
 		}
 	}
@@ -21,14 +21,14 @@ if(ds_grid_height(playerInventory) == 1)
 		if(ds_grid_get(playerInventory,1,global.itemSelected) > 1)
 			ds_grid_set(playerInventory, 1, global.itemSelected, ds_grid_get(playerInventory, 1, global.itemSelected) - 1);
 			else{
-				var currentrow = global.itemSelected + 1;
+				var currentrow = global.itemSelected - 1;
 				var rowtoremove = global.itemSelected;
 				for (var i = rowtoremove; i < ds_grid_height(playerInventory); ++i)
 				{
-					ds_grid_set_grid_region(playerInventory, playerInventory, 0, currentrow, 6, currentrow, 0, i);
+					ds_grid_set_grid_region(playerInventory, playerInventory, 0, currentrow, 8, currentrow, 0, i);
 					currentrow += 1;
 				}
-				ds_grid_resize(playerInventory, 6, ds_grid_height(playerInventory) - 1);
+				ds_grid_resize(playerInventory, 8, ds_grid_height(playerInventory) - 1);
 				if (global.scrolledAmount > 0)
 					--global.scrolledAmount;
 				if (global.itemSelected > 0)

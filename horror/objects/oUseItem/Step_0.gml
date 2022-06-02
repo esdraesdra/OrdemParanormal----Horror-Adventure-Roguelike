@@ -38,7 +38,7 @@ if keyActivate
 							if global.isEmpty = false
 								{
 									instance_create_layer(oPersonagem.x,oPersonagem.y, "props",ds_grid_get(myItems,9,global.itemSelected));
-									ds_grid_delete_row2();
+									ds_grid_column_delete();
 								}
 							break;
 						}
@@ -78,7 +78,7 @@ if keyActivate
 					case 2: //drop
 							{
 							instance_create_layer(143,1868, "props",ds_grid_get(myItems,8,global.itemSelected));
-							ds_grid_delete_row2();
+							ds_grid_column_delete();
 							}
 							break;
 					case 3:  break;
@@ -95,13 +95,15 @@ if ds_grid_value_exists(myItems, 7, global.itemSelected, 7, global.itemSelected,
 		{
 			global.menu_level = 0; //COMIDA
 		}
-
-if ds_grid_value_exists(myItems, 7, global.itemSelected, 7, global.itemSelected, "CATEGORIA:VESTIMENTAS")
+		else	if ds_grid_value_exists(myItems, 7, global.itemSelected, 7, global.itemSelected, "CATEGORIA:VESTIMENTAS")
 		{
 			global.menu_level = 1; //VESTIMENTAS
 		}
-
-if ds_grid_value_exists(myItems, 7, global.itemSelected, 7, global.itemSelected, "CATEGORIA:ARMAS")
+		else	if ds_grid_value_exists(myItems, 7, global.itemSelected, 7, global.itemSelected, "CATEGORIA:ARMAS")
 		{
 			global.menu_level = 2; //ARMAS
 		}
+
+
+
+

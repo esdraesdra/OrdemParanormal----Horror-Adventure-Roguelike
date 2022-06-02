@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sPorta",
-    "path": "sprites/sPorta/sPorta.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -33,7 +30,7 @@
     "path": "folders/Objects/Inventario/Itens.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPickup",
+  "name": "oKatana",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -30,7 +30,7 @@
     "path": "folders/Objects/Inventario/Itens.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPickup2",
+  "name": "oFaca",
   "tags": [],
   "resourceType": "GMObject",
 }

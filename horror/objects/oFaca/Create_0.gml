@@ -1,0 +1,9 @@
+myItemName			= global.struct_meele_Itens.faca.myItemName
+myItemAmount		= global.struct_meele_Itens.faca.myItemAmount
+myItemDescription	= global.struct_meele_Itens.faca.myItemDescription
+myItemSprite		= global.struct_meele_Itens.faca.myItemSprite
+myItemID			= global.struct_meele_Itens.faca.myItemID
+myItemPeso			= global.struct_meele_Itens.faca.myItemPeso
+myItemDurabilidade  = global.struct_meele_Itens.faca.myItemDurabilidade
+myItemTipo			= global.struct_meele_Itens.faca.myItemTipo
+myItemObjeto		= global.struct_meele_Itens.faca.myItemObjeto

@@ -1,0 +1,9 @@
+myItemName			= global.struct_meele_Itens.katana.myItemName
+myItemAmount		= global.struct_meele_Itens.katana.myItemAmount
+myItemDescription	= global.struct_meele_Itens.katana.myItemDescription
+myItemSprite		= global.struct_meele_Itens.katana.myItemSprite
+myItemID			= global.struct_meele_Itens.katana.myItemID
+myItemPeso			= global.struct_meele_Itens.katana.myItemPeso
+myItemDurabilidade  = global.struct_meele_Itens.katana.myItemDurabilidade
+myItemTipo			= global.struct_meele_Itens.katana.myItemTipo
+myItemObjeto		= global.struct_meele_Itens.katana.myItemObjeto
