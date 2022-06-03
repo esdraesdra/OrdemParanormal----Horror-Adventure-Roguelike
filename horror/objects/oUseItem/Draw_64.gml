@@ -8,7 +8,7 @@ draw_set_font(Font6);
 
 draw_sprite_stretched(sMenuItem,0,x, y, 200,158);
 draw_set_alpha(0.5);
-draw_rectangle(itemLeftStart, itemTopStart2 + ((pos - global.scrolledAmount) * 24 + 24),x + 200 - 32,  itemTopStart2 + ((pos - global.scrolledAmount)* 24), false);
+draw_rectangle(itemLeftStart, itemTopStart2 + (pos * 24) + 8,x + 200 - 32,  itemTopStart2 + (pos* 24) + 24, false);
 
 draw_set_alpha(1);
 

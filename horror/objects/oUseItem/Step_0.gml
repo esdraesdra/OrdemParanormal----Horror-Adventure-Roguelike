@@ -11,7 +11,6 @@ if (!instance_exists(oLookItem))
 		if pos < 0 {pos = op_lenght-1};
 	}
 
-//usar 
 if keyActivate 
 {	
 	var _sml = global.menu_level;
@@ -37,7 +36,7 @@ if keyActivate
 							case 2: 
 							if global.isEmpty = false
 								{
-									instance_create_layer(oPersonagem.x,oPersonagem.y, "props",ds_grid_get(myItems,9,global.itemSelected));
+									instance_create_layer(mouse_x,mouse_y, "Instances",ds_grid_get(myItems,9,global.itemSelected));
 									ds_grid_column_delete();
 								}
 							break;
@@ -77,8 +76,11 @@ if keyActivate
 					//
 					case 2: //drop
 							{
-							instance_create_layer(143,1868, "props",ds_grid_get(myItems,8,global.itemSelected));
-							ds_grid_column_delete();
+							instance_create_layer(mouse_x,mouse_y, "Instances",ds_grid_get(myItems,8,global.itemSelected));
+							ds_grid_delete_row2();
+							instance_destroy(oUseItem);
+							instance_destroy(oInventoryGui);
+							instance_create_depth(ui_width2,ui_height2,depth-2,oInventoryGui);
 							}
 							break;
 					case 3:  break;
@@ -91,19 +93,21 @@ if keyActivate
 	op_lenght = array_length(MenuItem[global.menu_level]);
 }
 
-if ds_grid_value_exists(myItems, 7, global.itemSelected, 7, global.itemSelected, "CATEGORIA:COMIDA")
+#region //categoria
+if ds_grid_value_exists(playerInventory, 7, global.itemSelected, 7, global.itemSelected, "CATEGORIA:COMIDA")
 		{
 			global.menu_level = 0; //COMIDA
 		}
-		else	if ds_grid_value_exists(myItems, 7, global.itemSelected, 7, global.itemSelected, "CATEGORIA:VESTIMENTAS")
+		else	if ds_grid_value_exists(playerInventory, 7, global.itemSelected, 7, global.itemSelected, "CATEGORIA:VESTIMENTAS")
 		{
 			global.menu_level = 1; //VESTIMENTAS
 		}
-		else	if ds_grid_value_exists(myItems, 7, global.itemSelected, 7, global.itemSelected, "CATEGORIA:ARMAS")
+		else	if ds_grid_value_exists(playerInventory, 7, global.itemSelected, 7, global.itemSelected, "CATEGORIA:ARMAS")
 		{
 			global.menu_level = 2; //ARMAS
 		}
-
-
-
-
+		else
+		{
+			global.menu_level = 2; //ARMAS
+		}
+#endregion
