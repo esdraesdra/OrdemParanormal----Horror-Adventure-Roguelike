@@ -7,7 +7,7 @@ global.struct_meele_Itens =
 			myItemDescription	: "Uma faca média de cozinha.",
 			myItemSprite		: sFaca,
 			myItemID			: "ID:FACA_1",
-			myItemPeso			: "50",
+			myItemPeso			: 50,
 			myItemDurabilidade  : "Perfeito",
 			myItemTipo			: "CATEGORIA:ARMAS",
 			myItemObjeto		: oFaca
@@ -20,7 +20,7 @@ global.struct_meele_Itens =
 			myItemDescription	: "Uma fina lamina oriental. Uma boa arma.",
 			myItemSprite		: sKatana,
 			myItemID			: "ID:FACA_1",
-			myItemPeso			: "50",
+			myItemPeso			: 50,
 			myItemDurabilidade  : "Perfeito",
 			myItemTipo			: "CATEGORIA:ARMAS",
 			myItemObjeto		: oKatana

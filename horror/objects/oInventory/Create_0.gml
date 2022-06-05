@@ -9,3 +9,7 @@ ui_height = 450;
 
 ui_width2 = 800;
 ui_height2 = 450;
+
+global.capacidadeTotalmin = 0;
+global.capacidadeAtual = 0;
+global.capacidadeTotalmax = 10;

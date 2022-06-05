@@ -10,16 +10,17 @@ draw_set_font(Font5);
 
 
 
+draw_text(x,y,global._itensFinder);
 
 if global._itensFinder > 0
 {
-	for (var i = 0; i < global._itensFinder; i+=1)
+	for (var i = 0; i < global._itensFinder; i++)
 	{
-		if variable_instance_exists(global._list[| i], "myItemName")
-		{
-			draw_text(bbox_left + textBorder, y + (i*32), string(variable_instance_get(global._list[| i], "myItemName")));	
+		draw_text(x,y+(i*10)+ 8 ,i);
+			for (var j = 0; j < ds_list_write(global._list); ++j) {
+				if (j == 0)
+							draw_text(bbox_left + textBorder, bbox_top + (i*24)+8, string(variable_instance_get(global._list[| i], "myItemName")));	
 		}
 	}
 }
-
 

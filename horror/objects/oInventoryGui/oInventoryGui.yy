@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sInventario",
-    "path": "sprites/sInventario/sInventario.yy",
+    "name": "sInventario_1",
+    "path": "sprites/sInventario_1/sInventario_1.yy",
   },
   "solid": false,
   "visible": true,

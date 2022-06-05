@@ -33,6 +33,7 @@ for (var i = 0; i < ds_grid_height(gridToAddTo); ++i)
 	{
 		ds_grid_set(gridToAddTo,1,i,ds_grid_get(gridToAddTo,1,i) + newItemAmount)
 		ds_grid_set(gridToAddTo,5,i,ds_grid_get(gridToAddTo,5,i) + newItemPeso)
+		global.capacidadeAtual += newItemPeso;
 		return true;
 	}	
 };
@@ -44,6 +45,7 @@ if(ds_grid_get(gridToAddTo,0,0) != 0)
 {
 ds_grid_resize(gridToAddTo,playerInventoryWidth,ds_grid_height(gridToAddTo) + 1);
 }
+global.capacidadeAtual += newItemPeso;
 newItemSpot = ds_grid_height(gridToAddTo) - 1;
 ds_grid_set(gridToAddTo,0,newItemSpot,newItemName);
 ds_grid_set(gridToAddTo,1,newItemSpot,newItemAmount);
@@ -54,7 +56,6 @@ ds_grid_set(gridToAddTo,5,newItemSpot,newItemPeso);
 ds_grid_set(gridToAddTo,6,newItemSpot,newItemDurabilidade);
 ds_grid_set(gridToAddTo,7,newItemSpot,newItemTipo);
 ds_grid_set(gridToAddTo,8,newItemSpot,newItemObjeto);
-
 return true;
 
 }

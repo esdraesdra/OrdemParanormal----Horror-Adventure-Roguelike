@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "structures",
-    "path": "folders/Objects/structures.yy",
+    "name": "armas",
+    "path": "folders/Objects/structures/armas.yy",
   },
   "resourceVersion": "1.0",
   "name": "Meele",

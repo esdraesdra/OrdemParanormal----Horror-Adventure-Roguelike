@@ -11,4 +11,3 @@ if (drag != noone){
         y = device_mouse_y_to_gui(0);
         }
  }
- 

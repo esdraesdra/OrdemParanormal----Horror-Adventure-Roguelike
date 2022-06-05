@@ -57,7 +57,7 @@ if keyActivate
 				}
 		break;
 		
-		case 2: //ferramnte
+		case 2: //Armas Meele
 				switch(pos)
 				{
 					//arma
@@ -76,7 +76,7 @@ if keyActivate
 					//
 					case 2: //drop
 							{
-							instance_create_layer(mouse_x,mouse_y, "Instances",ds_grid_get(myItems,8,global.itemSelected));
+							instance_create_layer(oPersonagem.x,oPersonagem.y, "Itens",ds_grid_get(myItems,8,global.itemSelected));
 							ds_grid_delete_row2();
 							instance_destroy(oUseItem);
 							instance_destroy(oInventoryGui);

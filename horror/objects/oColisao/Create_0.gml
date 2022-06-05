@@ -1,0 +1,1 @@
+myItemName = "colisao";

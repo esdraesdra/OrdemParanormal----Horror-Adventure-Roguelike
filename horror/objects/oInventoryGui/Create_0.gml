@@ -13,3 +13,6 @@ if (ds_grid_get(myItems, 0, 0) == 0)
 	global.inventoryEndAt = 0;
 	global.isEmpty = true;
 }
+
+
+

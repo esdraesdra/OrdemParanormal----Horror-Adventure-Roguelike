@@ -3,7 +3,7 @@ globalvar ArmarioInventoryWidth;
 ArmarioInventoryWidth = 10;
 ArmarioInventory = ds_grid_create(ArmarioInventoryWidth,1);
 
-AddItem(ArmarioInventory,"Item equi","0","Item equi","Item equi","Item equi","Item equi","Item equi","Categoria",oFaca);
+//AddItem(ArmarioInventory,"Item equi","0","Item equi","Item equi","Item equi","Item equi","Item equi","Categoria",oFaca);
 
 ui_width = 800;
 ui_height = 450;

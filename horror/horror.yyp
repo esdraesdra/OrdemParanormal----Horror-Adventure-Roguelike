@@ -84,7 +84,7 @@
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":10,},
     {"id":{"name":"scrInput","path":"scripts/scrInput/scrInput.yy",},"order":0,},
     {"id":{"name":"oArmarioGui","path":"objects/oArmarioGui/oArmarioGui.yy",},"order":6,},
-    {"id":{"name":"oDragBox","path":"objects/oDragBox/oDragBox.yy",},"order":0,},
+    {"id":{"name":"oDragBox","path":"objects/oDragBox/oDragBox.yy",},"order":14,},
     {"id":{"name":"par_dragable","path":"objects/par_dragable/par_dragable.yy",},"order":2,},
     {"id":{"name":"sFaca","path":"sprites/sFaca/sFaca.yy",},"order":11,},
     {"id":{"name":"Font6","path":"fonts/Font6/Font6.yy",},"order":5,},
@@ -161,6 +161,8 @@
     {"folderPath":"folders/Objects/Modo Investigador.yy","order":8,"resourceVersion":"1.0","name":"Modo Investigador","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Inventario/Itens.yy","order":6,"resourceVersion":"1.0","name":"Itens","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/structures.yy","order":15,"resourceVersion":"1.0","name":"structures","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/structures/armas.yy","order":1,"resourceVersion":"1.0","name":"armas","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/structures/comida e bebida.yy","order":2,"resourceVersion":"1.0","name":"comida e bebida","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
