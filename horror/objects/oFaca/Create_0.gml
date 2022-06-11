@@ -1,9 +1,9 @@
 myItemName			= global.item_Faca_01.myItemName;
-myItemAmount		= global.item_Faca_01.myItemAmount
-myItemDescription	= global.item_Faca_01.myItemDescription
-myItemSprite		= global.item_Faca_01.myItemSprite
-myItemID			= global.item_Faca_01.myItemID
-myItemPeso			= global.item_Faca_01.myItemPeso
-myItemDurabilidade  = global.item_Faca_01.myItemDurabilidade
-myItemTipo			= global.item_Faca_01.myItemTipo
-myItemObjeto		= global.item_Faca_01.myItemObjeto
+myItemAmount		= global.item_Faca_01.myItemAmount;
+myItemDescription	= global.item_Faca_01.myItemDescription;
+myItemSprite		= global.item_Faca_01.myItemSprite;
+myItemID			= global.item_Faca_01.myItemID;
+myItemPeso			= global.item_Faca_01.myItemPeso;
+myItemDurabilidade  = global.item_Faca_01.myItemDurabilidade;
+myItemTipo			= global.item_Faca_01.myItemTipo;
+myItemObjeto		= global.item_Faca_01.myItemObjeto;
