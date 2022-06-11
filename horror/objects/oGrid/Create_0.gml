@@ -3,7 +3,7 @@ drawGrid = true;
 tiles_largura = room_width/32;
 tiles_altura = room_height/32;
 //spaw grid
-
+//depth = -3000000
 
 //loop for length
 
@@ -15,6 +15,7 @@ for (var i = 0; i < tiles_largura; i++)
 		gridArray[i,j]= 1;
 	}
 }
+
 
 //colisao
 

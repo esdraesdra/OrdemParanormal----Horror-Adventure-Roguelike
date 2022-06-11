@@ -10,6 +10,7 @@
     {"id":{"name":"oPersonagem","path":"objects/oPersonagem/oPersonagem.yy",},"order":0,},
     {"id":{"name":"oStartNewGame","path":"objects/oStartNewGame/oStartNewGame.yy",},"order":0,},
     {"id":{"name":"Jungle","path":"rooms/Jungle/Jungle.yy",},"order":3,},
+    {"id":{"name":"oGridTeste","path":"objects/oGridTeste/oGridTeste.yy",},"order":16,},
     {"id":{"name":"sNineslice","path":"sprites/sNineslice/sNineslice.yy",},"order":5,},
     {"id":{"name":"oCharInfo","path":"objects/oCharInfo/oCharInfo.yy",},"order":1,},
     {"id":{"name":"Font5","path":"fonts/Font5/Font5.yy",},"order":4,},
@@ -123,9 +124,9 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"DebugRoom","path":"rooms/DebugRoom/DebugRoom.yy",},},
+    {"roomId":{"name":"Jungle","path":"rooms/Jungle/Jungle.yy",},},
     {"roomId":{"name":"StartMenu","path":"rooms/StartMenu/StartMenu.yy",},},
     {"roomId":{"name":"StartCriandoPersonagem","path":"rooms/StartCriandoPersonagem/StartCriandoPersonagem.yy",},},
-    {"roomId":{"name":"Jungle","path":"rooms/Jungle/Jungle.yy",},},
     {"roomId":{"name":"StartCriandoPersonagem2","path":"rooms/StartCriandoPersonagem2/StartCriandoPersonagem2.yy",},},
   ],
   "Folders": [
@@ -172,7 +173,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.625",
+    "IDEVersion": "2022.5.1.16",
   },
   "resourceVersion": "1.5",
   "name": "horror",

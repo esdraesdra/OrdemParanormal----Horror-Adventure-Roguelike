@@ -1,13 +1,10 @@
 {
-  "spriteId": {
-    "name": "sGrid",
-    "path": "sprites/sGrid/sGrid.yy",
-  },
+  "spriteId": null,
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
-  "persistent": true,
+  "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,11 +25,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Gerenciadores",
-    "path": "folders/Objects/Gerenciadores.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oGrid",
+  "name": "oGridTeste",
   "tags": [],
   "resourceType": "GMObject",
 }
